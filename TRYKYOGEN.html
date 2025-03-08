@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>songs</title>
+    <link rel="stylesheet" href="STYLES.css">
+    <style>
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            /* Дозволяє переносити елементи на новий ряд */
+            justify-content: center;
+            /* Центрує елементи */
+            text-align: center;
+            /* Центрує текст */
+            margin-bottom: 30px;
+            /* Збільшено відступ між рядами */
+        }
+
+        .content h2 {
+            width: 100%;
+            /* Забезпечує, що заголовок займає весь рядок */
+            margin: 0;
+            /* Видаляє відступи */
+            padding: 10px 0;
+            /* Додає вертикальний відступ */
+            margin-top: 50px;
+            /* Додає верхній відступ для переміщення заголовка вниз */
+        }
+
+        .content a {
+            margin: 10px;
+            /* Додає проміжок між зображеннями */
+            width: 300px;
+            /* Встановлює ширину для зображень */
+            height: 300px;
+            /* Встановлює висоту для зображень */
+            box-sizing: border-box;
+            /* Включає padding та border в ширину елемента */
+            display: flex;
+            /* Додаємо flex для центрованого тексту */
+            flex-direction: column;
+            /* Вертикальне розміщення елементів */
+            align-items: center;
+            /* Центрує елементи по горизонталі */
+        }
+
+        .content img {
+            width: 100%;
+            /* Зображення займає всю ширину посилання */
+            height: 100%;
+            /* Зображення займає всю висоту посилання */
+            object-fit: cover;
+            /* Зберігає пропорції зображення, заповнюючи контейнер */
+        }
+
+        p {
+            margin: 20px 0;
+            /* Відступи між зображенням і текстом */
+            font-size: 16px;
+            /* Розмір шрифту */
+            color: #000;
+            /* Колір тексту */
+            text-align: center;
+            /* Центрує текст під картинками */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1 style="color:red; font-family:Georgia, 'Times New Roman', Times, serif;"> ADO SLAY </h1>
+        </div>
+
+        <div id="navigation">
+            <ul>
+                <li><a class="menu" href="ADOSITE.html">About Ado</a></li>
+                <li><a class="menu" href="SONGS.html">Song lyrics</a></li>
+                <li><a class="menu" href="GALLERY.html">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Choose the song</h2>
+            <a href="SONGS/Readymade.html" target="_blank">
+                <img src="ADOPICTURES/ready made.jpg" alt="Raadymade">
+                <p>Readymade</p>
+            </a>
+            <a href="SONGS/Odo.html" target="_blank">
+                <img src="ADOPICTURES/odo.jpg" alt="Odo">
+                <p>Odo</p>
+            </a>
+            <a href="SONGS/Domesticdeviolence.html" target="_blank">
+                <img src="ADOPICTURES/KYOGEN.jpg" alt="Domestic de violence">
+                <p>Domestic de violence</p>
+            </a>
+        </div>
+        <div class="content">
+            <a href="SONGS/freedom.html" target="_blank">
+                <img src="ADOPICTURES/KYOGEN.jpg" alt="Freedom">
+                <p>Freedom</p>
+            </a>
+            <a href="SONGS/fireworks.html" target="_blank">
+                <img src="ADOPICTURES/KYOGEN.jpg" alt="Fireworks">
+                <p>Fireworks</p>
+            </a>
+            <a href="SONGS/Aitakute.html" target="_blank">
+                    <img src="ADOPICTURES/aitakute.jpg" alt="Aitakute">
+                    <p>Aitakute</p>
+                </a>
+        </div>
+        <div class="content">
+            <a href="SONGS/Luckybruto.html" target="_blank">
+                <img src="ADOPICTURES/KYOGEN.jpg" alt="Lucky bruto">
+                <p>Lucky bruto</p>
+            </a>
+            <a href="SONGS/Giragira.html" target="_blank">
+                <img src="ADOPICTURES/giragira.jpg" alt="Giragira">
+                <p>Gira Gira</p>
+            </a>
+            <a href="SONGS/Ashura-chan.html" target="_blank">
+                <img src="ADOPICTURES/ashurachan.jpg" alt="Ashura-chan">
+                <p>Ashura-chan</p>
+            </a>
+        </div>
+        <div class="content">
+            <a href="SONGS/Usseewa.html" target="_blank">
+                <img src="ADOPICTURES/Usseewa.jpg" alt="Usseewa">
+                <p>Usseewa</p>
+            </a>
+            <a href="SONGS/Motherland.html" target="_blank">
+                <img src="ADOPICTURES/KYOGEN.jpg" alt="Motherland">
+                <p>Motherland</p>
+            </a>
+            <a href="SONGS/Kagakushu.html" target="_blank">
+                <img src="ADOPICTURES/KYOGEN.jpg" alt="Kagakushu">
+                <p>Kagakushu</p>
+            </a>
+        </div>
+    </div>
+    <div class="content" style="margin-bottom: 300px;">
+        <a href="SONGS/yorunopierrot.html" target="_blank">
+            <img src="ADOPICTURES/yorunopierrot.jpg" alt="Yoru No Pierrot">
+            <p>Yoru No Pierrot</p>
+        </a>
+    </div>
+</body>
+
+</html>

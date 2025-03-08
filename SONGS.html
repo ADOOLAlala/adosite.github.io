@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>songs</title>
+    <link rel="stylesheet" href="STYLES.css">
+    <style>
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            /* Дозволяє переносити елементи на новий ряд */
+            justify-content: center;
+            /* Центрує елементи */
+            text-align: center;
+            /* Центрує текст */
+            margin-bottom: 30px;
+            /* Збільшено відступ між рядами */
+        }
+
+        .content h2 {
+            width: 100%;
+            /* Забезпечує, що заголовок займає весь рядок */
+            margin: 0;
+            /* Видаляє відступи */
+            padding: 10px 0;
+            /* Додає вертикальний відступ */
+        }
+
+        .content a {
+            margin: 10px;
+            width: 300px;
+            height: 300px;
+            box-sizing: border-box;
+            /* Включає padding та border в ширину елемента */
+            display: flex;
+            /* Додаємо flex для центрованого тексту */
+            flex-direction: column;
+            /* Вертикальне розміщення елементів */
+            align-items: center;
+            /* Центрує елементи по горизонталі */
+        }
+
+        .content img {
+            width: 100%;
+            /* Зображення займає всю ширину посилання */
+            height: 100%;
+            /* Зображення займає всю висоту посилання */
+            object-fit: cover;
+            /* Зберігає пропорції зображення, заповнюючи контейнер */
+        }
+
+        p {
+            margin: 20px 0px;
+            /* Відступи між зображенням і текстом */
+            font-size: 16px;
+            /* Розмір шрифту */
+            color: #000;
+            /* Колір тексту */
+            text-align: center;
+            /* Центрує текст під картинками */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1 style="color:red; font-family:Georgia, 'Times New Roman', Times, serif;"> ADO SLAY </h1>
+        </div>
+
+        <div id="navigation">
+            <ul>
+                <li><a class="menu" href="ADOSITE.html">About Ado</a></li>
+                <li><a class="menu" href="SONGS.html">Song lyrics</a></li>
+                <li><a class="menu" href="GALLERY.html">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2 style="margin-bottom:0px; margin-top: 40px">Choose the album</h2>
+            <a href="KYOUGEN.html" target="_parent">
+                <img src="ADOPICTURES/KYOGEN.jpg" alt="Kyougen">
+                <p>Kyougen</p>
+            </a>
+            <a href="UTANOUTA.html" target="_parent">
+                <img src="ADOPICTURES/UTANOUTA.jpg" alt="Uta no Uta: One Piece Film Red">
+                <p>Uta no Uta: One Piece Film Red</p>
+            </a>
+            <a href="UTATTEMITA.html" target="_parent">
+                <img src="ADOPICTURES/UTATTEMITA.jpg" alt="Utattemita">
+                <p>Utattemita</p>
+            </a>
+        </div>
+        <div class="content" style="margin-bottom: 200px;">
+            <a href="ZANMU.html" target="_parent">
+                <img src="ADOPICTURES/ZANMU.jpg" alt="Zanmu">
+                <p>Zanmu</p>
+            </a>
+            <a href="BESTADOBUM.html" target="_parent">
+                <img src="ADOPICTURES/BESTADOBUM.png" alt="Ado's Best Adobum">
+                <p>Ado's Best Adobum</p>
+            </a>
+            <a href="NOTIN.html" target="_parent">
+                <img src="ADOPICTURES/NOT.jpg" alt="Not Album">
+                <p>Not Album</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

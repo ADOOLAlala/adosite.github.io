@@ -1,0 +1,147 @@
+#container {
+    width: auto;
+    background: #ffffff;
+    
+   border: 0px solid silver;
+   display: flex;
+   flex-direction: column; /*row column*/
+   /*justify-content: space-around;*/
+   align-items: stretch;
+  }
+  
+  #header {
+    background: url(https://phonoteka.org/uploads/posts/2021-05/1620218701_42-phonoteka_org-p-belii-fon-po-vertikali-54.png);
+    border: 1px solid silver;
+    margin: 0px;
+    padding: 5px;
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+  
+    #navigation {
+    /* background: rgb(246, 249, 250);
+    border: 1px solid silver; */
+    margin: 3px;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    }
+
+    .content {
+        background: url(https://phonoteka.org/uploads/posts/2021-05/1620218701_42-phonoteka_org-p-belii-fon-po-vertikali-54.png);
+        border: 0px solid silver;
+        margin: 3px;
+        padding: 5px;
+        flex:5;
+        display: flex;
+        flex-direction: row; /* row-reverse; змінює місцями блоки*/
+        }
+    img {
+        margin-top:50px;
+    }
+      
+        #footer {
+          background: url(https://phonoteka.org/uploads/posts/2021-05/1620218701_42-phonoteka_org-p-belii-fon-po-vertikali-54.png);
+        border: 1px solid silver;
+        margin: 3px;
+        padding: 5px;
+        flex:2;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        }
+      
+      
+        .leftpanel {
+       /* background: rgb(177, 181, 182);*/
+        border: 1px solid silver;
+        margin: 3px;
+        padding: 5px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+        .centerpanel {
+        /* background: rgb(177, 181, 182);*/
+        border: 1px solid silver;
+        margin: 3px;
+        padding: 5px;
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+        .rightpanel {
+        /* background: rgb(177, 181, 182);*/
+        border: 1px solid silver;
+        margin: 3px;
+        padding: 5px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+      
+        /*   меню  ----------------*/
+      
+      ul, li {
+      margin: 0;
+      padding: 0;
+      }
+      ul {
+      list-style: none;
+      }
+      li {
+      float: left;
+      width: auto;
+      }
+      a.menu {
+      background: #303030;
+      color: #FFFFFF;
+      /*display: block; */
+      font: bold 13px sans-serif;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      }
+      li:hover a {
+      background: #000000;
+      }
+      
+      
+      /* Налаштування для текста*/
+      
+      p {
+        text-align: justify;/*left right center*/
+        margin-right: 30px;
+        margin-left: 20px;
+        font-family: 'AR One Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
+      font-family: 'Lato', sans-serif; /*выберіть свій шрифт*/
+        font-size: 15px;
+        line-height: 20px;/* відстань між строками*/
+      }
+      /* Додайте самостійно налаштування для заголовків h1 h2...*/
+      h1 {
+        font-family: 'AR One Sans', sans-serif;
+      }
+      h2 {
+        font-family: 'AR One Sans', sans-serif;
+      font-family: 'Lato', sans-serif;
+      }
+      h3{
+        font-family: Comic sans MS;
+      }
+      h2.dog{
+        font-family: Comic sans MS;
+      }
+  
