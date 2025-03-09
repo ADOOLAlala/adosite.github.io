@@ -1,11 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="STYLES.css">
+    <style>
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            /* Дозволяє переносити елементи на новий ряд */
+            justify-content: center;
+            /* Центрує елементи */
+            text-align: center;
+            /* Центрує текст */
+            margin-bottom: 30px;
+            /* Збільшено відступ між рядами */
+        }
+
+        .content h2 {
+            width: 100%;
+            /* Забезпечує, що заголовок займає весь рядок */
+            margin: 0;
+            /* Видаляє відступи */
+            padding: 10px 0;
+            /* Додає вертикальний відступ */
+            margin-top: 50px;
+            /* Додає верхній відступ для переміщення заголовка вниз */
+        }
+
+        .content a {
+            margin: 10px;
+            /* Додає проміжок між зображеннями */
+            width: 300px;
+            /* Встановлює ширину для зображень */
+            height: 300px;
+            /* Встановлює висоту для зображень */
+            box-sizing: border-box;
+            /* Включає padding та border в ширину елемента */
+            display: flex;
+            /* Додаємо flex для центрованого тексту */
+            flex-direction: column;
+            /* Вертикальне розміщення елементів */
+            align-items: center;
+            /* Центрує елементи по горизонталі */
+        }
+
+        .content img {
+            width: 100%;
+            /* Зображення займає всю ширину посилання */
+            height: 100%;
+            /* Зображення займає всю висоту посилання */
+            object-fit: cover;
+            /* Зберігає пропорції зображення, заповнюючи контейнер */
+        }
+
+        p {
+            margin: 20px 0;
+            /* Відступи між зображенням і текстом */
+            font-size: 16px;
+            /* Розмір шрифту */
+            color: #000;
+            /* Колір тексту */
+            text-align: center;
+            /* Центрує текст під картинками */
+        }
+        img {
+            border: 2px solid black;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div id="container">
+        <div id="header">
+            <h1 style="color:red; font-family:Georgia, 'Times New Roman', Times, serif;"> ADO SLAY </h1>
+        </div>
+
+        <div id="navigation">
+            <ul>
+                <li><a class="menu" href="index.html">About Ado</a></li>
+                <li><a class="menu" href="SONGS.html">Song lyrics</a></li>
+                <li><a class="menu" href="GALLERY.html">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2 style="margin-bottom:0px; margin-top: 40px">Gallery</h2>
+
+            <a href="ADOPICTURES/adopicaarr.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicaarr.jpg" alt="Ado">
+            </a>
+
+            <a href="ADOPICTURES/adopicros.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicros.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adopicww.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicww.jpg" alt="Ado">
+            </a>
+        </div>
+        <div class="content">
+
+            <a href="ADOPICTURES/adopic5.jpg" target="_parent">
+                <img src="ADOPICTURES/adopic5.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/ador.jpg" target="_parent">
+                <img src="ADOPICTURES/ador.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adon.jpg" target="_parent">
+                <img src="ADOPICTURES/adon.jpg" alt="Ado"></a>
+        </div>
+        <div class="content">
+
+            <a href="ADOPICTURES/adopicss.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicss.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adopickk.jpg" target="_parent">
+                <img src="ADOPICTURES/adopickk.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adopicse.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicse.jpg" alt="Ado"></a>
+        </div>
+
+        <div class="content">
+
+            <a href="ADOPICTURES/adob.jpg" target="_parent">
+                <img src="ADOPICTURES/adob.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adopic1.jpg" target="_parent">
+                <img src="ADOPICTURES/adopic1.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adopic6.jpg" target="_parent">
+                <img src="ADOPICTURES/adopic6.jpg" alt="Ado"></a>
+        </div>
+
+        <div class="content">
+
+            <a href="ADOPICTURES/adopicc.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicc.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adopicaaa.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicaaa.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adopicwe.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicwe.jpg" alt="Ado"></a>
+        </div>
+
+        <div class="content">
+
+            <a href="ADOPICTURES/adopicnew.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicnew.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adopickkrrf.jpg" target="_parent">
+                <img src="ADOPICTURES/adopickkrrf.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/aaadddoo.jpg" target="_parent">
+                <img src="ADOPICTURES/aaadddoo.jpg" alt="Ado"></a>
+
+        </div>
+
+        <div class="content">
+
+            <a href="ADOPICTURES/adopicuss.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicuss.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adopicsh.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicsh.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adopicfl.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicfl.jpg" alt="Ado"></a>
+
+        </div>
+
+        <div class="content" style="margin-bottom: 300px;">
+
+            <a href="ADOPICTURES/adopicaaaa.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicaaaa.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adopicafl.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicafl.jpg" alt="Ado"></a>
+
+            <a href="ADOPICTURES/adopicais.jpg" target="_parent">
+                <img src="ADOPICTURES/adopicais.jpg" alt="Ado"></a>
+        </div>
+    </div>
+
+    </div>
+
 </body>
+
 </html>
