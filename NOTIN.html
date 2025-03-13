@@ -1,11 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Other</title>
+    <link rel="stylesheet" href="STYLES.css">
+    <style>
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            /* Дозволяє переносити елементи на новий ряд */
+            justify-content: center;
+            /* Центрує елементи */
+            text-align: center;
+            /* Центрує текст */
+            margin-bottom: 30px;
+            /* Збільшено відступ між рядами */
+        }
+
+        .content h2 {
+            width: 100%;
+            /* Забезпечує, що заголовок займає весь рядок */
+            margin: 0;
+            /* Видаляє відступи */
+            padding: 10px 0;
+            /* Додає вертикальний відступ */
+            margin-top: 50px;
+            /* Додає верхній відступ для переміщення заголовка вниз */
+        }
+
+        .content a {
+            margin: 10px;
+            /* Додає проміжок між зображеннями */
+            width: 300px;
+            /* Встановлює ширину для зображень */
+            height: 300px;
+            /* Встановлює висоту для зображень */
+            box-sizing: border-box;
+            /* Включає padding та border в ширину елемента */
+            display: flex;
+            /* Додаємо flex для центрованого тексту */
+            flex-direction: column;
+            /* Вертикальне розміщення елементів */
+            align-items: center;
+            /* Центрує елементи по горизонталі */
+        }
+
+        .content img {
+            width: 100%;
+            /* Зображення займає всю ширину посилання */
+            height: 100%;
+            /* Зображення займає всю висоту посилання */
+            object-fit: cover;
+            /* Зберігає пропорції зображення, заповнюючи контейнер */
+        }
+
+        p {
+            margin: 20px 0;
+            /* Відступи між зображенням і текстом */
+            font-size: 16px;
+            /* Розмір шрифту */
+            color: #000;
+            /* Колір тексту */
+            text-align: center;
+            /* Центрує текст під картинками */
+        }
+    </style>
 </head>
+
 <body>
+    <div id="container">
+        <div id="header">
+            <h1 style="color:red; font-family:Georgia, 'Times New Roman', Times, serif;"> ADO SLAY </h1>
+        </div>
+
+        <div id="navigation">
+            <ul>
+                <li><a class="menu" href="index.html">About Ado</a></li>
+                <li><a class="menu" href="SONGS.html">Song lyrics</a></li>
+                <li><a class="menu" href="GALLERY.html">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2 style="margin-bottom:0px; margin-top: 40px">Other</h2>
+            <a href="SONGS/OTHER/FakingofComedy.html" target="_parent">
+                <img src="ADOPICTURES/Faking of Comedy.jpg" alt="Faking of Comedy">
+                <p>Faking of Comedy</p>
+            </a>
+
+            <a href="SONGS/OTHER/Senbonzakura.html" target="_parent">
+                <img src="ADOPICTURES/Senbonzakura.jpg" alt="Senbonzakura">
+                <p>Senbonzakura</p>
+            </a>
+
+            <a href="SONGS/OTHER/KittoCoaster.html" target="_parent">
+                <img src="ADOPICTURES/Kitto Coaster.jpg" alt="Kitto Coaster">
+                <p>Kitto Coaster</p>
+            </a>
+        </div>
+        <div class="content">
+            <a href="SONGS/OTHER/Eat.html" target="_parent">
+                <img src="ADOPICTURES/Eat.jpg" alt="Eat">
+                <p>Eat</p>
+            </a>
+            <a href="SONGS/OTHER/Shikabanese.html" target="_parent">
+                <img src="ADOPICTURES/Shikabanese.jpg" alt="Shikabanese">
+                <p>Shikabanese</p>
+            </a>
+            <a href="SONGS/OTHER/TOKYO CANNIBALISM.html" target="_parent">
+                <img src="ADOPICTURES/TOKYO CANNIBALISM.jpg" alt="TOKYO CANNIBALISM">
+                <p>TOKYO CANNIBALISM</p>
+            </a>
+        </div>
+        <div class="content">
+                <a href="SONGS/OTHER/shakeitnow.html" target="_parent">
+                    <img src="ADOPICTURES/shakeitnow.jpg" alt="Shake It Now.">
+                    <p>Shake It Now.</p>
+                </a>
+            <a href="SONGS/OTHER/Rasen.html" target="_parent">
+                <img src="ADOPICTURES/Rasen.jpg" alt="Rasen">
+                <p>Rasen</p>
+            </a>
+                <a href="SONGS/OTHER/AntiSystem's.html" target="_parent">
+                    <img src="ADOPICTURES/AntiSystem's.jpg" alt="AntiSystem's">
+                    <p>AntiSystem's</p>
+                </a>
+        </div>
+        
+        <div class="content">
     
+            <a href="SONGS/OTHER/foolfoolfool.html" target="_parent">
+                <img src="ADOPICTURES/fool, fool, fool.png" alt="fool, fool, fool">
+                <p>fool, fool, fool</p>
+            </a>
+            <a href="SONGS/OTHER/Tachiirikinshi.html" target="_parent">
+                <img src="ADOPICTURES/Tachiirikinshi.jpg" alt="Tachiirikinshi">
+                <p>Tachiirikinshi</p>
+            </a>
+            <a href="SONGS/OTHER/ANEMONE.html" target="_parent">
+                <img src="ADOPICTURES/ANEMONE.jpg" alt="ANEMONE">
+                <p>ANEMONE</p>
+            </a>
+        </div>
+        <div class="content">
+            <a href="SONGS/OTHER/Freudmeta.html" target="_parent">
+                <img src="ADOPICTURES/Freudmeta.jpg" alt="Freudmeta">
+                <p>Freudmeta</p>
+            </a>
+            <a href="SONGS/OTHER/Osmanthus.html" target="_parent">
+                <img src="ADOPICTURES/osmanthus.jpg" alt="Osmanthus">
+                <p>Osmanthus</p>
+            </a>
+            <a href="SONGS/Motherland.html" target="_parent">
+                <img src="ADOPICTURES/osyarebantyou.jpg" alt="osyarebantyou">
+                <p>osyarebantyou</p>
+            </a>      
+        </div>
+
+    <div class="content" style="margin-bottom: 300px;">  
+        <a href="SONGS/Aitakute.html" target="_parent">
+                <img src="ADOPICTURES/Take Me to the Beach.jpg" alt="Take Me to the Beach">
+                <p>Take Me to the Beach</p>
+            </a>    
+        <a href="SONGS/Ashura-chan.html" target="_parent">
+            <img src="ADOPICTURES/Stick Candy.jpg" alt="Stick Candy">
+            <p>Stick Candy</p>
+        </a> 
+            
+        <a href="SONGS/Aitakute.html" target="_parent">
+                <img src="ADOPICTURES/radionoise.jpg" alt="Radio Noise">
+                <p>Radio Noise</p>
+            </a>
+    </div>
+
+</div>
 </body>
+
 </html>
